@@ -1,0 +1,189 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, blockquote {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    background-color:white;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    height: 70px; width: 100%;
+  }
+  
+  header {
+    background-color: maroon;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    height: 70px; 
+    width: 100%;
+  }
+  h1{
+    color: darkorange;
+    font-family:cursive;
+  }
+  h2{
+    color:rgb(126, 60, 74);
+    font-family: cursive;
+    font-style:italic;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-style: unset;
+    color: firebrick;
+  }
+
+   
+ 
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+  }
+  #projects {
+    border-radius: 1px solid gray;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: cadetblue;
+  }
+  logo img {
+    max-height: 50px;
+}
+  
+  footer {
+    background-color:maroon;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    height: 70px; 
+    width: 100%;
+  }
+ 
+  
+  header, footer {
+    flex: 0 0 auto;
+  }
+  
+  main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+ 
+  .rounded-image {
+    border-radius: 50%; 
+    margin-left: 25%;
+  }
+  .member{
+    display: flex;
+    
+   }
+   
+
+   #skill {
+    display: flex;
+    width: 100%;
+    margin: 0 -5px;
+  }
+
+   .flex-item{
+    background:gainsboro;
+    margin: 0 5px;
+    margin-left: 5%;
+    background-color: burlywood;
+    }
+    
+  
+    
+  
+  
+
+@media (max-width: 768px) {
+
+  body {
+    background-color: rgb(126, 60, 74);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    height: 70px; width: 100%;
+  }
+
+  header {
+    background-color: navajowhite;
+    color:black;
+    text-align: center;
+    padding: 1rem 0;
+    height: 70px; 
+    width: 100%;
+  }
+}
